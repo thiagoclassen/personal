@@ -1,0 +1,199 @@
+
+
+/*
+licorice : #131515
+japanese indigo: #263B54
+dark vanila: #D1C6AD
+*/
+
+@font-face {
+  font-family: 'Adam';
+  src: url('../fonts/adam.otf');
+}
+
+@font-face {
+  font-family: 'Reis';
+  src: url('../fonts/REIS-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'bariol';
+  src: url('../fonts/Bariol_Regular_Italic.otf');
+}
+
+.font-title{
+    font-family: 'Reis';
+    font-size: 132px;
+}
+
+html {
+    background-color: #263238;
+    font-size: 1em;
+    line-height: 1.4;    
+    font-family: 'bariol';
+}
+
+p{
+    /*font-family: 'Adam', sans-serif;*/
+    color: #263B54;
+    font-size: 1.6em;
+    margin: auto 12px;
+}
+
+p{
+    margin: 0 5px; 
+    line-height: 110%;
+}
+
+h1{
+    /*font-family: 'Adam', sans-serif;*/
+    /*color: #339989;*/
+    color: #D4E7FF;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    color: #7DE2D1;
+    font-size: 1.66em;
+}
+
+h3{
+    color: #FFFAFB;
+    font-size: 1.33em;
+}
+
+
+section{
+    height: 100vh;
+}
+
+.side-by-side{
+   display: -webkit-box;
+}
+
+.side-by-side .panel{
+    width: 50%;
+}
+
+.left-1{
+    background-color: #263B54;
+    display: flex;
+    align-items: center;
+}
+
+.left-1 div{
+    margin: 0 auto;
+}
+
+.left-1 h1{
+    /*font-size: 10em;*/
+    color: #D4E7FF;
+}
+
+.right-1{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.right-1 img{
+    margin: 20px auto;
+}
+
+.right-1 .logos{
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    margin: auto 0px;
+}
+
+
+.right-1 .mongo{
+    width:20%;
+    height: auto;
+}
+
+.right-1 .resize{
+    width:10%;
+    height: auto;
+}
+
+.right-1 .square{
+    width:auto;
+    max-height: 96px;
+}
+
+.mongo{
+    width:20%;
+    height: auto;
+}
+
+.resize{
+    width:10%;
+    height: auto;
+}
+
+.square{
+    width:auto;
+    max-height: 96px;
+}
+
+.break{
+    flex-grow: 1;
+}
+
+
+.left-2{
+    background-color: #fafafa;
+    overflow-y: scroll;
+}
+
+.left-2 p{
+    color: #131515;
+     
+}
+
+.right-2{
+    background-color: #131515;
+    display: flex;
+    align-items: center;
+}
+
+.right-2 div{
+    margin: 0 auto;
+    /*font-size: 4em;*/
+}
+
+.footer{
+    background-color: #263B54;
+    display: flex;
+    align-items: center;
+}
+
+.footer div{
+    margin: 0 auto;
+}
+
+.footer h1{
+   /* font-size: 5em;*/
+}
+
+.logo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-list-content{
+    margin: 0 auto;
+}
+
+.xp-content{
+    margin: 5px;
+}
+
+.left-2::-webkit-scrollbar { 
+    display: none; 
+}
